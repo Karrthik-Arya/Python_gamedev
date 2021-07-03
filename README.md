@@ -8,8 +8,7 @@ tedious, difficult coding and focus on the higher-level logic of game dynamics.
 Making games is an ideal way to have fun while learning a language. It’s deeply satisfying to watch others play a game you wrote, and writing a simple game 
 will help you understand how professional games are written.  
 
-We will be making an Alien Invasing game while learning about various methods/functions of the pygame
-module. Note the game will span a number of different files, so make a new folder called alien_invasion. Be sure to save all files for the game to this folder so *import* statements will work correctly.
+To learn about the pygame library we will be making an *Alien invasion game* on python somewhat like *asteroids*. Note the game will span a number of different files, so make a new folder called alien_invasion. Be sure to save all files for the game to this folder so *import* statements will work correctly.
 
 
 ## Setting up Pygame
@@ -27,3 +26,5 @@ If you are using pyhton 3 just replace `python-pygame` with `python3-pygame`.
 To make sure its been installed correctly open the python interpreter by runnning `python` or `python3` on the terminal depending on your version of python.
 Then try running `import pygame`. If it runs without any error then pygame is successfully installed.
 
+## Starting the Game Project
+Now to start building our game we will first make the pygame window where we will add the various elements of the game like ship or aliens, setup the background etc. You can go through this notebook to learn these things. 
