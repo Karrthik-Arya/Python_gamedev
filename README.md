@@ -27,28 +27,5 @@ To make sure its been installed correctly open the python interpreter by runnnin
 Then try running `import pygame`. If it runs without any error then pygame is successfully installed.
 
 ## Starting the Game Project
-Now to start building our game we will first make the pygame window where we will add the various elements of the game like ship or aliens, setup the background etc. You can go through this notebook to learn these things. 
-
-### Creating an empty pygame window and taking input from users
-We will be creating this pygame window in the file alien_invasion.py. This will be our main file which we will run to start the game. From this file we will be calling functions from other modules. So create this file with the following code.
-```{python}
-import sys
-import pygame
-
-def run_game():
-    # Initialize game and create a screen object.
-    pygame.init()
-    screen = pygame.display.set_mode((1200, 800))
-    pygame.display.set_caption("Alien Invasion")
-
-    # Start the main loop for the game.
-    while True:
-        # Watch for keyboard and mouse events.
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                sys.exit()
-        # Make the most recently drawn screen visible.
-        pygame.display.flip()
-
-run_game()
-```
+Now to begin building our game we will first make the pygame window where we will add the various elements of the game like ship and aliens, setup the background etc. You will learn how to create *surfaces* with pygame which refer to a part of the screen where you display a game element. Each element in the game is a *surface*. You will also learn about *events* which is an action that the user performs while playing the game, such as pressing a key or moving the mouse.  
+You can go through this notebook to learn about these things. 
