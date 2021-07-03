@@ -31,7 +31,7 @@ Now to start building our game we will first make the pygame window where we wil
 
 ### Creating an empty pygame window and taking input from users
 We will be creating this pygame window in the file alien_invasion.py. This will be our main file which we will run to start the game. From this file we will be calling functions from other modules. So create this file with the following code.
-```
+```{python}
 import sys
 import pygame
 
