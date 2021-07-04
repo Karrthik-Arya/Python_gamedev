@@ -28,4 +28,4 @@ Then try running `import pygame`. If it runs without any error then pygame is su
 
 ## Starting the Game Project
 Now to begin building our game we will first make the pygame window where we will add the various elements of the game like ship and aliens, setup the background etc. You will learn how to create *surfaces* with pygame which refer to a part of the screen where you display a game element. Each element in the game is a *surface*. You will also learn about *events* which is an action that the user performs while playing the game, such as pressing a key or moving the mouse.  
-You can go through this notebook to learn about these things. 
+You can go through [this notebook](https://github.com/Karrthik-Arya/Python_gamedev/blob/main/Initial_Setup.ipynb) to learn about these things. 
