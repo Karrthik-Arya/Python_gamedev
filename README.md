@@ -31,4 +31,9 @@ Now to begin building our game we will first make the pygame window where we wil
 You can go through [this notebook](https://github.com/Karrthik-Arya/Python_gamedev/blob/main/Initial_Setup.ipynb) to learn about these things. 
 
 ## Making the ship function
-After building the basic setup, the next setup is to make the ship respond to user's inputs. In this section we will work on making the ship move according to input from the keyboard. Through this you will learn more about events. Another concept you will be introduced to is refactoring. Refactoring restructures the code so as to make it easier for you as well as other people to understand it as welss as develop it further. You can go through this notebook to learn about refactoring and piloting the ship. Next thing to do would be to give the ship the ability to shoot bullets. You can learn about that in this notebook.   
+After building the basic setup, the next setup is to make the ship respond to user's inputs. In this section we will work on making the ship move according to input from the keyboard. Through this you will learn more about events. Another concept you will be introduced to is refactoring. Refactoring restructures the code so as to make it easier for you as well as other people to understand it as welss as develop it further. You can go through this notebook to learn about refactoring and piloting the ship.
+
+Next thing to do would be to give the ship the ability to shoot bullets. To do this you will learn about the concept of *sprites*. A sprite is a two dimensional image that is part of the larger graphical scene. Typically a sprite will be some kind of object in the scene that will be interacted with. You can learn about that in this notebook.   
+
+## Creating Aliens
+Creating aliens is going to be quite similar to creating the ship. However, the difference is that while there was only a single ship, but there is a fleet of aliens. So we will be creating rows of aliens that will move sideways as well as downward. You can learn about this in this notebook.
